@@ -1,9 +1,144 @@
 body {
     background-color: #F7F3FF;
-    margin: 0;
 }
 
 * {
     font-family: Open Sans;
     color: #fff;
 }
+
+.social-media {
+    background-color: #772D8B;
+}
+
+.join-us {
+    color: #FFC42D;
+}
+
+
+.navigation {
+    background-image: url(./images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.main-heading {
+    padding-top: 40px;
+}
+
+.nav-bar {
+    background: rgba(0, 0, 0, 0.26);
+}
+
+.nav-helpline span {
+    color: #FFC42D;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-links a:hover {
+    color: bisque;
+}
+
+.nav-link {
+    white-space: nowrap;
+    color: #fff;
+}
+
+.login-side-bar {
+    background-color: #373737C9;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+
+input[type=text] {
+    width: 226px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    color: #373737C9 ;
+  }
+
+  input[type=password] {
+    width: 226px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 6px;
+    color: #373737C9 ;
+  }
+
+  .form-bar p {
+      font-size: 10px;
+      color: #B6C4DA;
+      margin-left: 140px;
+      cursor: pointer;
+  }
+
+  .login-btn button{
+    background: #EE2B7A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 218px;
+    cursor: pointer;
+  }
+
+  .letter-p {
+      color: #995AAA;
+  }
+
+  .section-icons {
+      background-color: #772D8B;
+      height: 90px;
+      width: 90px;
+      margin: auto;
+  }
+
+  @media screen and  (max-width: 768px) {
+
+    .main-head {
+        display: block;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-text {
+        text-align: center;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+
+
+  }
+
+  @media screen and  (max-width: 992px) {
+
+    .section-two {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .section-two img {
+        margin: 0;
+    }
+
+  }
