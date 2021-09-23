@@ -330,7 +330,7 @@ footer{
 }
 .copyright__section{
     background: white;
-    padding: 12px;
+    /* padding: 12px; */
     text-align: center;
     color: #474747;
 }
@@ -398,6 +398,12 @@ body {
   }
   .flow-text    {
       padding: 0 58px;
+  }
+  .footer-desc {
+      line-height: 21.66px;
+  }
+  .options {
+      line-height: 35.38px;
   }
   .footer-main {
     background: #333333;
