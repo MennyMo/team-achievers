@@ -40,6 +40,14 @@
     justify-content: end;
 }
 
+.nav-link {
+    margin-left: 40px;
+}
+
+.request-btn {
+    margin-left: 40px;
+}
+
 .nav-links a:hover {
     color: bisque;
 }
@@ -53,6 +61,11 @@
     background-color: #373737C9;
     width: fit-content;
     border-radius: 8px;
+}
+
+.our-service-wrapper {
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 
@@ -100,6 +113,22 @@ input[type=text] {
       height: 90px;
       width: 90px;
       margin: auto;
+  }
+
+  .we-provide {
+      font-size: 60px;
+  }
+
+  .industry-focused {
+      font-size: 40px;
+  }
+
+  .dont-have-acct span {
+      font-size: 12px;
+  }
+
+  .sign-up {
+      color: #EE2B7A;
   }
 
   @media screen and  (max-width: 768px) {
